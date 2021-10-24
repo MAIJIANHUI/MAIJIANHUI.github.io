@@ -1,1 +1,23 @@
-Hello World
+<template>
+    <view>
+        <web-view :webview-styles="webviewStyles" src="https://ycg.qq.com/person/works/2395674"></web-view>
+    </view>
+</template>
+
+<script>
+    export default {
+        data() {
+            return {
+                webviewStyles: {
+                    progress: {
+                        color: '#FF3333'
+                    }
+                }
+            }
+        }
+    }
+</script>
+
+<style>
+
+</style>
