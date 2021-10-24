@@ -1,1 +1,80 @@
-https://maijianhui.com/
+<!DOCTYPE html>
+<html lang="cn" >
+<head>
+  <meta charset="UTF-8">
+  <title>锦瑟无端五十弦，一弦一柱思华年。</title>
+  
+  <link rel="stylesheet" href="style.css"/>
+
+<script>
+    function quickSort(elements){
+        console.log("元素"+elements);
+        console.log("长度"+elements.length);
+        if(elements.length<=1){
+            return elements;
+        }
+        var index = Math.floor(elements.length/2);
+        //console.log(index);//5->5->4->3->2->2->1
+        var pivot = elements.splice(index,1)[0];//获取删除的数字
+        //console.log("pivot="+pivot);//1-8-7-3-6-4.4-5.5
+        var arrLeft = [];
+        var arrRight = [];
+        for(var i = 0;i<elements.length;i++){
+            if(elements[i] < pivot){
+                arrLeft.push(elements[i]);
+                console.log("arrLeft="+arrLeft);
+            }else{
+                arrRight.push(elements[i]);
+                console.log("arrright="+arrRight)
+            }
+        }
+        return quickSort(arrLeft).concat([pivot],quickSort(arrRight));
+      
+    }
+ 
+    var elements = [4,5,2,3,7,1,8,9,6,4.4,5.5];
+    console.log(quickSort(elements));//[1, 2, 3, 4, 4.4, 5, 5.5, 6, 7, 8, 9]
+</script>
+</head>
+<body>
+
+<div class="table">
+</div>
+<div class="table1">
+<div class="table2">
+</div>
+<div class="table2ss">
+</div>
+<div class="table2-b">
+</div>
+<div class="table2-bs">
+</div>
+</div>
+</div>
+</div>
+<div class="table3">
+</div>
+<div class="table">
+</div>
+<div class="table">
+</div>
+<div class="table4">
+<div class="table6">
+</div>
+<div class="table7">
+</div>
+<div class="table8">
+</div>
+</div>
+<div class="table5">
+</div>
+<div class="table4">
+<div class="table6">
+</div>
+<div class="table7">
+</div>
+<div class="table8">
+</div>
+</div>
+</body>
+</html>
