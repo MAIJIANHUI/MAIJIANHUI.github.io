@@ -14,6 +14,13 @@ container{
     padding-bottom: 0px;  
     box-sizing: border-box;
 }
+header{
+    width: 60%;
+    height: 0.1rem;
+    background: #DCDCDC;
+	margin-left:20%;
+	margin-right:20%;
+	}
 
 footer{
     width: 100%;
@@ -23,11 +30,12 @@ footer{
     left:0px;
     
 }
+
 .text-footer{
 	
 	text-align:center;
-	margin-top:3rem;
-	font-size:0.9em;
-	color:#757575;
+	margin-top:4rem;
+	font-size:1em;
+	color:#959595;
 	font-weight:bold;
 }
