@@ -15,6 +15,7 @@ container{
     box-sizing: border-box;
 }
 header{
+    margin-bottom:4rem;
     width: 60%;
     height: 0.1rem;
     background: #DCDCDC;
