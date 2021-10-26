@@ -13,10 +13,10 @@ html,body{
     padding-bottom: 8rem;
 }
 footer{
-    height: 10rem;
-    margin-top: -10rem;
-    opacity: 0.5;
-    color: #5E5E5E;
+    height: 8rem;
+    margin-top: -8rem;
+    opacity: 1;
+    
 	  bottom:0px;
     left:0px;
 }
@@ -51,7 +51,7 @@ header{
 .text-footer{
 	
 	text-align:center;
-
+   margin-top:4rem;
 	font-size:1em;
 	color:#959595;
 	font-weight:bold;
