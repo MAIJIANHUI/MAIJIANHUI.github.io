@@ -9,9 +9,11 @@ container{
    display: flex;
     flex-direction: column;
     height: 100%;
+
 }
 header{
-	margin-top:-3rem;
+	
+	margin-top:10rem;
     width: 60%;
     height: 0.1rem;
     background: #DCDCDC;
