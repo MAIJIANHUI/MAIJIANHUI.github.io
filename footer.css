@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 30%;
+}
+#container{
+    /*保证footer是相对于container位置绝对定位*/
+    position:relative;  
+    width:100%;
+    min-height:100%; 
+    /*设置padding-bottom值大于等于footer的height值，以保证main的内容能够全部显示出来而不被footer遮盖；*/  
+    padding-bottom: 0px;  
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 200px;
+    background: #999;
+}
+.main{
+    width: 100%;
+    height: 200px;
+    background: orange;
+}
+footer{
+    width: 100%;
+    height:100px;   /* footer的高度一定要是固定值*/ 
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    background: #333;
+}
