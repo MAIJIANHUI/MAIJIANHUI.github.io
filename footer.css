@@ -15,7 +15,7 @@ container{
     box-sizing: border-box;
 }
 header{
-    margin-bottom:4rem;
+	margin-top:-3rem;
     width: 60%;
     height: 0.1rem;
     background: #DCDCDC;
@@ -35,7 +35,7 @@ footer{
 .text-footer{
 	
 	text-align:center;
-	margin-top:4rem;
+	margin-top:1rem;
 	font-size:1em;
 	color:#959595;
 	font-weight:bold;
