@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-html,body{
-    height: 30%;
-}
+
 container{
    display: flex;
     flex-direction: column;
@@ -13,7 +11,7 @@ container{
 }
 header{
 	
-	margin-top:10rem;
+	margin-top:12rem;
     width: 60%;
     height: 0.1rem;
     background: #DCDCDC;
@@ -23,7 +21,7 @@ header{
 
 footer{
     width: 100%;
-    height:8rem;   /* footer的高度一定要是固定值*/ 
+    height:5rem;   /* footer的高度一定要是固定值*/ 
     position:absolute;
     bottom:0px;
     left:0px;
