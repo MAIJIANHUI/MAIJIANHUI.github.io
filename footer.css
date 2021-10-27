@@ -46,6 +46,15 @@ header{
 	margin-right:20%;
 	}
 
+a:link {   
+text-decoration: none;   
+}   
+a:visited {   
+text-decoration: none;   
+}   
+a:hover {   
+text-decoration: underline;   
+}   
 
 
 .text-footer{
