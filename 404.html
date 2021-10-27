@@ -40,7 +40,7 @@
     divLabel.innerHTML = time.toString() + label
     function updateTime(){
         time = time-1
-        if(time>=2){ divLabel.innerHTML = time.toString() + label }
+        if(time>=1){ divLabel.innerHTML = time.toString() + label }
         else{ divLabel.innerHTML = "正在跳转到关于有任何问题请联系我；contact@maijianhui.com，请稍后！" }
     }
     setInterval("updateTime()",1000);
