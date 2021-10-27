@@ -41,7 +41,7 @@
     function updateTime(){
         time = time-1
         if(time>=2){ divLabel.innerHTML = time.toString() + label }
-        else{ divLabel.innerHTML = "正在跳转到，关于有任何问题请联系我！<br/>contact@maijianhui.com<br/>请稍后！" }
+        else{ divLabel.innerHTML = "正在跳转，关于有任何问题请联系我！<br/><br/>contact@maijianhui.com<br/><br/>请稍后！" }
     }
     setInterval("updateTime()",1000);
     setTimeout("javascript:location.href='https://maijianhui.com'", time*1000);
