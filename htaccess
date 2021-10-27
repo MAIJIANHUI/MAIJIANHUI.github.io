@@ -1,10 +1,25 @@
 <Files ~ "^.(htaccess|htpasswd)$">
 deny from all
 </Files>
-ErrorDocument 400 404.html
-ErrorDocument 404 404.html
-ErrorDocument 408 404.html
-ErrorDocument 502 404.html
-ErrorDocument 503 404.html
-ErrorDocument 504 404.html
+ErrorDocument 400 index.html
+ErrorDocument 401 index.html
+ErrorDocument 402 index.html
+ErrorDocument 403 index.html
+ErrorDocument 404 index.html
+ErrorDocument 405 index.html
+ErrorDocument 406 index.html
+ErrorDocument 407 index.html
+ErrorDocument 408 index.html
+ErrorDocument 409 index.html
+ErrorDocument 410 index.html
+ErrorDocument 411 index.html
+ErrorDocument 412 index.html
+ErrorDocument 413 index.html
+ErrorDocument 414 index.html
+ErrorDocument 500 index.html
+ErrorDocument 501 index.html
+ErrorDocument 502 index.html
+ErrorDocument 503 index.html
+ErrorDocument 504 index.html
+ErrorDocument 505 index.html
 order deny,allow
