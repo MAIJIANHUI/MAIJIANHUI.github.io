@@ -6,7 +6,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .back {background: white; color:  #555;}
+  .back {background: white; color:  #333;}
   .models {border:solid 1px #2b85e4}
 }
 /*在主要内容不足以铺满整个屏幕的情况下，footer居于屏幕低部显示，
