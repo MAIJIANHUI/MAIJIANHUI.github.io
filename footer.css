@@ -1,3 +1,14 @@
+.back {background: white; color:  #555;text-align: center}
+
+@media (prefers-color-scheme: dark) {
+  .back {background:  #333; color: white;}
+  .models {border:solid 1px #00ff00}
+}
+
+@media (prefers-color-scheme: light) {
+  .back {background: white; color:  #555;}
+  .models {border:solid 1px #2b85e4}
+}
 /*在主要内容不足以铺满整个屏幕的情况下，footer居于屏幕低部显示，
 使得整个页面占满屏幕。而当主要内容高度大于整个屏幕高度的时候，
 footer跟随主要内容进行显示；*/
