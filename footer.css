@@ -13,6 +13,7 @@
 使得整个页面占满屏幕。而当主要内容高度大于整个屏幕高度的时候，
 footer跟随主要内容进行显示；*/
 html,body{
+    line-height:1.5;
     height: 100%;
     margin: 0;
     padding: 0;
