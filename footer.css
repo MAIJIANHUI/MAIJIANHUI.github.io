@@ -25,8 +25,8 @@ html,body{
     padding-bottom: 8rem;
 }
 footer{
-    height: 8rem;
-    margin-top: -8rem;
+    height: 6rem;
+    margin-top: -6rem;
     opacity: 1;
     
 	  bottom:0px;
@@ -50,7 +50,7 @@ container{
 */
 header{
 	
-	margin-top:-10rem;
+	margin-top:-8rem;
     width: 70%;
     height: 0.1rem;
     background: #DCDCDC;
