@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: 
 Sitemap: https://www.maijianhui.com/index.html
+Sitemap: https://www.maijianhui.com/index.xml
