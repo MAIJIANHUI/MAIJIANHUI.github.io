@@ -94,17 +94,16 @@ text-decoration: none;
 	color:#959595;
 	font-weight:bold;
 }
-.text-p-left{
+.text-p-left>.text-p-right{
 	line-height:1.5;
 	text-align:left;
 	font-size:1em;
 	color:#959595;
 	font-weight:bold;
+} 
+.text-p-left{
+         text-align:left;
 }
 .text-p-right{
-	line-height:1.5;
 	text-align:right;
-	font-size:1em;
-	color:#959595;
-	font-weight:bold;
 }
