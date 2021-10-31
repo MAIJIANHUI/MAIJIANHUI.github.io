@@ -97,7 +97,6 @@ text-decoration: none;
 .text-p-left{
 	line-height:1.5;
 	text-align:left;
-        margin-top:2.8rem;
 	font-size:1em;
 	color:#959595;
 	font-weight:bold;
@@ -105,7 +104,6 @@ text-decoration: none;
 .text-p-right{
 	line-height:1.5;
 	text-align:right;
-        margin-top:2.8rem;
 	font-size:1em;
 	color:#959595;
 	font-weight:bold;
