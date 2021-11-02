@@ -120,10 +120,12 @@ text-decoration: none;
 }
 
 .star-max:before {
+    color:#959595;
     font-size:1.6rem;
     content: "\272F"
 }
 .star-min:before {
+    color:#959595;
     font-size:1.3rem;
     content: "\272F\272F"
 }
