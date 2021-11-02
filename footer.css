@@ -119,12 +119,13 @@ text-decoration: none;
 	
 }
 
-.star-mix:before {
-    font-size:1.3rem;
-    content: "\272F\272F"
-}
-
 .star-max:before {
     font-size:1.6rem;
     content: "\272F"
 }
+.star-min:before {
+    font-size:1.3rem;
+    content: "\272F\272F"
+}
+
+
