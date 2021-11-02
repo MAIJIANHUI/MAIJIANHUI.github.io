@@ -121,12 +121,12 @@ text-decoration: none;
 
 .star-max:before {
     color:#959595;
-    font-size:1.6rem;
+    font-size:2rem;
     content: "\272F"
 }
 .star-min:before {
     color:#959595;
-    font-size:1.3rem;
+    font-size:1.5rem;
     content: "\272F\272F"
 }
 
