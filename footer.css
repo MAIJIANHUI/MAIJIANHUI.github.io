@@ -120,6 +120,7 @@ text-decoration: none;
 }
 
 .star:before {
+    font-size:1.6rem;
     content: "\272F"
 }
 
