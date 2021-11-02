@@ -119,9 +119,12 @@ text-decoration: none;
 	
 }
 
-.star:before {
-    font-size:1.6rem;
-    content: "\272F"
+.star-mix:before {
+    font-size:1rem;
+    content: "\272F\272F"
 }
 
-
+.star-max:before {
+    font-size:1.5rem;
+    content: "\272F"
+}
