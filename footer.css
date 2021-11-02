@@ -121,13 +121,13 @@ text-decoration: none;
 
 .star-max:before {
     color:#959595;
-    font-size:2rem;
-    content: "\2605"
+    font-size:1.rem;
+    content: "\2606"
 }
 .star-min:before {
     color:#959595;
-    font-size:1.5rem;
-    content: "\2605\2605"
+    font-size:1rem;
+    content: "\2606\2606"
 }
 
 
