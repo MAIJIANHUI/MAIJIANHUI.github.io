@@ -117,3 +117,9 @@ text-decoration: none;
 	color:#959595;
 	
 }
+
+.star:before {
+    content: "\2605"
+}
+
+
