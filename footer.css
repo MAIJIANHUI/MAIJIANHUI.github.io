@@ -7,7 +7,7 @@
 @media (prefers-color-scheme: dark) {
   .back {
 	  background:  #333; 
-	  color: white;
+	  color: #DCDCDC;
 	}
   .models {
 	  border:solid 1px #00ff00;
