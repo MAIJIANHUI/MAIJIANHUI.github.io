@@ -1,6 +1,6 @@
 .back { 
 	background: white; 
-	color:  #333;
+	color:  #656565;
 	text-align: center
 }
 
@@ -17,7 +17,7 @@
 @media (prefers-color-scheme: light) {
   .back {
 	  background: white; 
-	  color:  #333;
+	  color:  #656565;
 	}
   .models {
 	  border:solid 1px #2b85e4;
