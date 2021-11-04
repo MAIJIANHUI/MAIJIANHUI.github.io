@@ -94,11 +94,22 @@ text-decoration: none;
 	color:#959595;
 	font-weight:bold;
 }
+
+
+.text-index{
+	line-height:1.5;
+	text-align:center;
+        margin-top:2.8rem;
+	font-size:1.4rem;
+	color:#959595;
+	font-weight:bold;
+}
+
 .text-footer{
 	line-height:1.5;
 	text-align:center;
-   margin-top:2.8rem;
-	font-size:1.4rem;
+        margin-top:2.8rem;
+	font-size:1.2rem;
 	color:#959595;
 	font-weight:bold;
 }
@@ -108,8 +119,7 @@ text-decoration: none;
 	text-align:left;
 	font-size:1.6rem;
 	color:#959595;
-	
-    text-align:left;
+	text-align:left;
 }
 .text-p-right{
 	line-height:1.5;
