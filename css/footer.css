@@ -39,8 +39,8 @@ html,body{
     padding-bottom: 5rem;
 }
 footer{
-    height: 5rem;
-    margin-top: -5rem;
+    height: 4rem;
+    margin-top: -4rem;
     opacity: 1;
     
 	  bottom:0px;
@@ -64,7 +64,7 @@ container{
 */
 header{
 	
-	margin-top:-6rem;
+	margin-top:-5rem;
     width: 70%;
     height: 0.1rem;
     background: #DCDCDC;
@@ -89,7 +89,7 @@ text-decoration: none;
 .text-top{
 	line-height:1.5;
 	text-align:center;
-   margin-top:-2rem;
+        margin-top:-2rem;
 	font-size:1.7rem;
 	color:#959595;
 	font-weight:bold;
@@ -108,7 +108,7 @@ text-decoration: none;
 .text-footer{
 	line-height:1.5;
 	text-align:center;
-        margin-top:2.6rem;
+        margin-top:2.3rem;
 	font-size:1.2rem;
 	color:#959595;
 	font-weight:bold;
