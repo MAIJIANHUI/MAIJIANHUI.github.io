@@ -36,11 +36,11 @@ html,body{
 .page{
     box-sizing: border-box;/*为元素指定的任何内边距和边框都将在已设定的宽度和高度内进行绘制*/
     min-height: 100%;
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
 }
 footer{
-    height: 6rem;
-    margin-top: -6rem;
+    height: 5rem;
+    margin-top: -5rem;
     opacity: 1;
     
 	  bottom:0px;
@@ -64,7 +64,7 @@ container{
 */
 header{
 	
-	margin-top:-8rem;
+	margin-top:-6rem;
     width: 70%;
     height: 0.1rem;
     background: #DCDCDC;
@@ -108,7 +108,7 @@ text-decoration: none;
 .text-footer{
 	line-height:1.5;
 	text-align:center;
-        margin-top:2.8rem;
+        margin-top:2.6rem;
 	font-size:1.2rem;
 	color:#959595;
 	font-weight:bold;
