@@ -1,5 +1,11 @@
 html {
-    filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); 
+    filter:grayscale(100%);
+　　-webkit-filter:grayscale(100%);
+　　-moz-filter:grayscale(100%);
+　　-ms-filter:grayscale(100%);
+　　-o-filter:grayscale(100%);
+   filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+　　-webkit-filter:grayscale(1)
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
