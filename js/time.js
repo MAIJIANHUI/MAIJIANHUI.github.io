@@ -1,5 +1,5 @@
 <!-- Begin
 copyright=new Date();
 update=copyright.getFullYear();
-document.write("COPYRIGHT "+ update + " MAIJIANHUI");
+document.write("COPYRIGHT "+ update + " MAIJIANHUI.com");
 //  End -->
