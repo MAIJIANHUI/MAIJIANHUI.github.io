@@ -34,12 +34,14 @@
   var version = IEVersion();
   if(version !== -1 && version <= 10){
     setTimeout(function () {
-      document.body.innerHTML = '<div style="text-align: center;padding-top: 20%;font-weight: bold">请采用其他浏览器访问，以保证本系统正常使用</div>'
-    },1500)
+      document.body.innerHTML = '<div style="text-align: center;padding-top: 20%;font-weight: bold">浏览器不支持</div>'
+                                '<div style="text-align: center;padding-top: 20%;font-weight: bold">抱歉，您的浏览器不支持访问，请使用其他浏览器预览</div>'
+    },600)
   }else if(version == 11) {
     setTimeout(function () {
-      document.body.innerHTML = '<div style="text-align: center;padding-top: 20%;font-weight: bold">请采用其他浏览器访问，以保证本系统正常使用</div>'
-    },1500)
+      document.body.innerHTML = '<div style="text-align: center;padding-top: 20%;font-weight: bold">浏览器不支持</div>'
+                                '<div style="text-align: center;padding-top: 20%;font-weight: bold">抱歉，您的浏览器不支持访问，请使用其他浏览器预览</div>'
+    },600)
 }
 
 //  End -->
