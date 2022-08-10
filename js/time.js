@@ -34,11 +34,11 @@
   var version = IEVersion();
   if(version !== -1 && version <= 10){
     setTimeout(function () {
-      document.body.innerHTML = '<div style="text-align: center;padding-top: 20%;font-weight: bold">抱歉，您的浏览器不支持访问，请使用其他浏览器预览</div>'
+      document.body.innerHTML = '<div style="text-center: center;padding-top: 20%;font-weight: bold">抱歉，您的浏览器不支持访问，请使用其他浏览器预览</div>'
     },0)
   }else if(version == 11) {
      setTimeout(function () {
-      document.body.innerHTML = '<div style="text-align: center;padding-top: 20%;font-weight: bold">抱歉，您的浏览器不支持访问，请使用其他浏览器预览</div>'                        
+      document.body.innerHTML = '<div style="text-center: center;padding-top: 20%;font-weight: bold">抱歉，您的浏览器不支持访问，请使用其他浏览器预览</div>'                        
     },0)
 }
 
