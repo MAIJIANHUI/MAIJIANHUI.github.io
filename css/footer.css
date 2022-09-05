@@ -89,7 +89,7 @@ text-decoration: none;
 .text-top{
 	line-height:1.5;
 	text-align:center;
-        margin-top:-2rem;
+               margin-top: 3rem;
 	font-size:1.7rem;
 	color:#959595;
 	font-weight:bold;
@@ -142,4 +142,27 @@ text-decoration: none;
     content: "\2606\2606"
 }
 
+.div-logo{
+   position: fixed;
+   text-align: center;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 15%;
+   background: #fff;
+   z-index: 10;
+}
+.img-logo {
+    border-radius: 50%
+}
+.text-logo {
+    text-align: left;
+    line-height: 1.5;
+   margin-top:2rem;
+   line-height:1.5;
+}
+.logo {
+    width: 5rem;
+    height: 5rem;
+}
 
