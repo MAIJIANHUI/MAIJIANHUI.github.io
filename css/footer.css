@@ -42,8 +42,7 @@ footer{
     height: 4rem;
     margin-top: -4rem;
     opacity: 1;
-    
-	  bottom:0px;
+    bottom:0px;
     left:0px;
 }
 /*footer 结束*/
@@ -56,22 +55,20 @@ html,body{
 }
 
 container{
-   display: flex;
+    display: flex;
     flex-direction: column;
     height: 100%;
 
 }
 */
 header{
-	
-	margin-top:-5rem;
+    margin-top:-5rem;
     width: 70%;
     height: 0.1rem;
     background: #DCDCDC;
-	margin-left:15%;
-	margin-right:15%;
-
-	}
+    margin-left:15%;
+    margin-right:15%;
+}
 
 a:link {   
 font-size:1.7rem;
@@ -89,7 +86,7 @@ text-decoration: none;
 .text-top{
 	line-height:1.5;
 	text-align:center;
-               margin-top: 3.5rem;
+        margin-top: 3.5rem;
 	font-size:1.7rem;
 	color:#959595;
 	font-weight:bold;
