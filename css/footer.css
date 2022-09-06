@@ -86,7 +86,7 @@ text-decoration: none;
 .text-top{
 	line-height:1.5;
 	text-align:center;
-        margin-top: 3rem;
+        margin-top: 2rem;
 	font-size:1.7rem;
 	color:#959595;
 	font-weight:bold;
@@ -145,7 +145,7 @@ text-decoration: none;
    left: 0;
    top: 0;
    width: 100%;
-   height: 12%;
+   height: 15%;
    z-index: 10;
 }
 .img-logo {
