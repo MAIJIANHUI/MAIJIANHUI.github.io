@@ -1,9 +1,8 @@
-<!-- Begin
+
   copyright=new Date();
   update=copyright.getFullYear();
   document.write("COPYRIGHT "+ update + " MAIJIANHUI");
 
-   
   function IEVersion() {
     var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
     var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
@@ -41,6 +40,19 @@
        setTimeout(function () {
       document.body.innerHTML = '<div style="text-center: center;padding-top: 20%;font-size:1.8rem;f"><div style="font-size:2.5rem;font-weight: bold">浏览器不支持</div><br/>抱歉，您的浏览器不支持访问<br/>我们建议您使用最新版本的 Safari、Firefox、Microsoft Edge 或 Chrome 浏览器</div>'
     },0)
-}
+};
 
-//  End -->
+    var time = 60
+    var divLabel = document.getElementById("countdown")
+    var label = "秒后将返回首页"
+    divLabel.innerHTML = time.toString() + label
+    function updateTime(){
+        time = time-1
+        if(time>=0){ divLabel.innerHTML = time.toString() + label }
+        else{ divLabel.innerHTML = "正在跳转，任何问题请联系我！<br/><br/>contact@maijianhui.com<br/><br/>请稍后！" }
+    }
+    setInterval("updateTime()",1000);
+    setTimeout("javascript:location.href='https://www.maijianhui.com'", time*1000);
+
+
+
