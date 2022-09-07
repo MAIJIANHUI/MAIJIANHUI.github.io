@@ -63,20 +63,20 @@ container{
 */
 article{
     margin-top: 1.5rem;
-    width: 74%;
+    width: 72%;
     height: 0.1rem;
     background: #DCDCDC;
-    margin-left:13%;
-    margin-right:13%;
+    margin-left:14%;
+    margin-right:14%;
 
 }
 header{
     margin-top:-5rem;
-    width: 70%;
+    width: 72%;
     height: 0.1rem;
     background: #DCDCDC;
-    margin-left:15%;
-    margin-right:15%;
+    margin-left:14%;
+    margin-right:14%;
 }
 
 a:link {   
