@@ -62,7 +62,7 @@ container{
 }
 */
 article{
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     width: 70%;
     height: 0.1rem;
     background: #DCDCDC;
@@ -162,7 +162,7 @@ text-decoration: none;
    left: 0;
    top: 0;
    width: 100%;
-   height: 10rem;
+   height: 8rem;
    z-index: 10;
    /*border-bottom: 0.1rem solid #656565;
 	*/
@@ -174,11 +174,11 @@ text-decoration: none;
 .text-logo {
     text-align: left;
     line-height: 1.5;
-   margin-top:2.5rem;
+   margin-top:2rem;
    line-height:1.5;
 }
 .logo {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
