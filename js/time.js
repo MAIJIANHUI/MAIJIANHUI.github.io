@@ -1,7 +1,7 @@
 
   copyright=new Date();
   update=copyright.getFullYear();
-  document.write("COPYRIGHT "+ update + " MAIJIANHUI");
+  document.write="COPYRIGHT "+ update + " <a href="https://www.maijianhui.com/cn/ycg/" arget="_blank">MAIJIANHUI</a>";
 
   function IEVersion() {
     var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
