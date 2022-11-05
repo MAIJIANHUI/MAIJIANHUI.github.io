@@ -197,26 +197,35 @@ color:#959595;
 .outside{
     position: fixed;
     text-align:center;
-    width:70%; 
+    width:100%; 
+     height: 7rem; 
     padding:1%;
     overflow:hidden;
     display: flex;
     align-items: center;
-    
+   
 }
 
 .divleft{
     margin-right:auto;
     padding:1rem;
     float:left;
-    width:10%;
-     
+    width:10rem;
 }
 
 .divright{
     
     padding:1rem;
     float:right;
-    width:8%;
+    width:6rem;
+    font-weight:bolder;
     
+}
+
+.divsm{
+    
+    padding:1rem;
+    float:right;
+    width:10rem;
+    font-weight:bolder;
 }
