@@ -200,17 +200,23 @@ color:#959595;
     width:70%; 
     padding:1%;
     overflow:hidden;
+    display: flex;
+    align-items: center;
+    
 }
 
 .divleft{
+    margin-right:auto;
     padding:1rem;
     float:left;
-    width:8%;
+    width:10%;
+     
 }
 
 .divright{
-    margin-top:0rem;
+    
     padding:1rem;
     float:right;
     width:8%;
+    
 }
