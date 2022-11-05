@@ -1,4 +1,4 @@
- var time = 60
+ var time = 30
     var divLabel = document.getElementById("countdown")
     var label = "秒后将返回首页"
     divLabel.innerHTML = time.toString() + label
