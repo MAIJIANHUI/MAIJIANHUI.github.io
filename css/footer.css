@@ -231,7 +231,10 @@ color:#959595;
 .divsm:hover{
     border-bottom:0.2rem solid #959595;
 }
-
+.h4pages{
+    margin-top: 5rem;
+    font-weight:bolder;
+    }
 }
 /*
 @media (min-width: 768px) { 
@@ -320,6 +323,10 @@ color:#959595;
 .divsm:hover{
     border-bottom:0.2rem solid #959595;
 }
+.h4pages{
+    font-weight:bolder;
+    }
+}
 
 } 
 
@@ -357,6 +364,7 @@ color:#959595;
     width:6rem;
     font-weight:bolder;
     
+    
 }
 .divright:hover{
     border-bottom:0.2rem solid #959595;
@@ -373,6 +381,11 @@ color:#959595;
 .divsm:hover{
     border-bottom:0.2rem solid #959595;
 }
+.h4pages{
+    font-weight:bolder;
+    }
+}
+
 } 
 @media (min-width: 1200px) {
 .contain{
@@ -400,7 +413,9 @@ color:#959595;
     float:left;
     width:10rem;
 }
-
+/*.divleft:hover{
+    border-bottom:0.2rem solid #959595;
+}*/
 .divright{
     
     padding:1rem;
@@ -424,5 +439,9 @@ color:#959595;
 .divsm:hover{
     border-bottom:0.2rem solid #959595;
 }
-    
+.h4pages{
+    font-weight:bolder;
+    }
+
 } 
+
