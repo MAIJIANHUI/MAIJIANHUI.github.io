@@ -218,6 +218,9 @@ color:#959595;
     font-weight:bolder;
     
 }
+.divright:hover{
+    border-bottom:0.2rem solid #959595;
+}
 .divsm{
     padding:1rem;
     float:left;
@@ -225,6 +228,9 @@ color:#959595;
     font-weight:bolder;
     
 }    
+.divsm:hover{
+    border-bottom:0.2rem solid #959595;
+}
 
 }
 /*
@@ -300,6 +306,9 @@ color:#959595;
     font-weight:bolder;
     
 }
+.divright:hover{
+    border-bottom:0.2rem solid #959595;
+}
 
 .divsm{
     
@@ -307,6 +316,9 @@ color:#959595;
     float:right;
     width:10rem;
     font-weight:bolder;
+}
+.divsm:hover{
+    border-bottom:0.2rem solid #959595;
 }
 
 } 
@@ -346,6 +358,9 @@ color:#959595;
     font-weight:bolder;
     
 }
+.divright:hover{
+    border-bottom:0.2rem solid #959595;
+}
 
 .divsm{
     
@@ -353,8 +368,11 @@ color:#959595;
     float:right;
     width:10rem;
     font-weight:bolder;
+    
 }
-
+.divsm:hover{
+    border-bottom:0.2rem solid #959595;
+}
 } 
 @media (min-width: 1200px) {
 .contain{
@@ -391,6 +409,9 @@ color:#959595;
     font-weight:bolder;
     
 }
+.divright:hover{
+    border-bottom:0.2rem solid #959595;
+}
 
 .divsm{
     
@@ -398,7 +419,10 @@ color:#959595;
     float:right;
     width:10rem;
     font-weight:bolder;
+    
 }
-
+.divsm:hover{
+    border-bottom:0.2rem solid #959595;
+}
     
 } 
