@@ -244,6 +244,7 @@ color:#959595;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 }
+
 .divarchives{
     padding:1rem;
     float:left;
@@ -251,46 +252,30 @@ color:#959595;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 } 
-
-    
-}
-/*
-@media (min-width: 768px) { 
-.contain{
-    width:100%; 
-    display: flex;
-    justify-content: center;
-    /*align-items: center;
-}
-
-.outside{
-    position: fixed;
-    text-align:center;
-    width:100%; 
-     height: 10rem; 
-    padding:2%;
-    overflow:hidden;
-    align-items: center;
-   
-   
-}
-.divright{
-    padding:1rem;
-    float:left;
-    width:16%;
-    font-weight:bolder;
-    
-}
-.divsm{
+.divtags{
     padding:1rem;
     float:left;
     width:20%;
     font-weight:bolder;
-    
-}    
-    
+    border-top:0.2rem solid #959595;
 }
-*/
+.divlinks{
+    padding:1rem;
+    float:left;
+    width:20%;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+.divabout{
+    padding:1rem;
+    float:left;
+    width:20%;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+   
+}
+
 
 @media (min-width: 768px) { 
 .contain{
@@ -360,6 +345,28 @@ color:#959595;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 }
+.divtags{
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+.divlinks{
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+.divabout{
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+   
 .divdisclaimer{
     padding:1rem;
     float:right;
@@ -450,6 +457,27 @@ color:#959595;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 }
+.divtags{
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+.divlinks{
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+.divabout{
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
 .divdisclaimer{
     padding:1rem;
     float:right;
@@ -532,6 +560,27 @@ color:#959595;
 }
 .divarchives{
     
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+.divtags{
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+.divlinks{
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+.divabout{
     padding:1rem;
     float:left;
     width:6rem;
