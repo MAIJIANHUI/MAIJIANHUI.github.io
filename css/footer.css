@@ -297,18 +297,11 @@ color:#959595;
    
 }
 
-.divleft{
-    margin-right:auto;
-    padding:1rem;
-    float:left;
-    width:10rem;
-}
-    
 .divright{
     
     padding:1rem;
     float:right;
-    width:6rem;
+    width:20%;
     font-weight:bolder;
     
 }
@@ -320,7 +313,7 @@ color:#959595;
     
     padding:1rem;
     float:right;
-    width:10rem;
+    width:20%;
     font-weight:bolder;
 }
 .divsm:hover{
@@ -334,35 +327,35 @@ color:#959595;
 .divhome{
     padding:1rem;
     float:left;
-    width:6rem;
+    width:20%;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 }
 .divarchives{
     padding:1rem;
     float:left;
-    width:6rem;
+    width:20%;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 }
 .divtags{
     padding:1rem;
     float:left;
-    width:6rem;
+    width:20%;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 }
 .divlinks{
     padding:1rem;
     float:left;
-    width:6rem;
+    width:20%;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 }
 .divabout{
     padding:1rem;
     float:left;
-    width:6rem;
+    width:20%;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
 }
@@ -370,7 +363,7 @@ color:#959595;
 .divdisclaimer{
     padding:1rem;
     float:right;
-    width:10rem;
+    width:20%;
     font-weight:bolder;
     border-top:0.2rem solid #959595;
     }
