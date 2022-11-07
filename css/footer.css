@@ -290,7 +290,12 @@ color:#959595;
     align-items: center;
    
 }
-
+.divleft{
+    margin-right:auto;
+    padding:1rem;
+    float:left;
+    width:10rem;
+}
 .divright{
     
     padding:1rem;
