@@ -211,6 +211,14 @@ color:#959595;
    
    
 }
+.divhome{
+    
+    padding:1rem;
+    float:left;
+    width:20%;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
 .divright{
     padding:1rem;
     float:left;
@@ -301,6 +309,16 @@ color:#959595;
     width:10rem;
 }
 
+.divhome{
+    
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-top:0.2rem solid #959595;
+}
+    
+    
 .divright{
     
     padding:1rem;
@@ -356,7 +374,20 @@ color:#959595;
     float:left;
     width:10rem;
 }
+    
+.divhome{
+    
+    padding:1rem;
+    float:right;
+    width:6rem;
+    font-weight:bolder;
+    border-bottom:0.2rem solid #959595;
+    
+}
 
+    
+    
+    
 .divright{
     
     padding:1rem;
@@ -416,6 +447,15 @@ color:#959595;
 /*.divleft:hover{
     border-bottom:0.2rem solid #959595;
 }*/
+.divhome{
+    
+    padding:1rem;
+    float:left;
+    width:6rem;
+    font-weight:bolder;
+    border-bottom:0.2rem solid #959595;
+}
+
 .divright{
     
     padding:1rem;
@@ -428,6 +468,8 @@ color:#959595;
     border-bottom:0.2rem solid #959595;
 }
 
+
+    
 .divsm{
     
     padding:1rem;
