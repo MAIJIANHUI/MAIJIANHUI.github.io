@@ -95,7 +95,9 @@ container{
 
 }
 */
-
+img { 
+	-webkit-touch-callout: none;
+}
 a:link {   
 font-size:1.7rem;
 text-decoration: none;   
