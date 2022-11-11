@@ -29,6 +29,6 @@ function secondToDate(second) {
         var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
         currentTime = secondToDate((timestamp - create_time));
         currentTimeHtml ='&#12300;' + '已运行：' + currentTime[0] + '年' + currentTime[1] + '天'
-                + currentTime[2] + '时' + currentTime[3] + '分' + '&#12301;';
+                + '&#12301;';
         document.getElementById("htmer_time").innerHTML = currentTimeHtml;
     }    setInterval(setTime, 1000);
