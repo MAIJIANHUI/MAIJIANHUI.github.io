@@ -42,10 +42,12 @@ function IEVersion() {
 };
 
  
-var time = new Date().getTime()
-if ( time >= 1669781580 && time < 1670342399) {
-     var html = document.getElementsByTagName('html')[0]
-     html.style.filter = 'grayscale(100%)'
-     html.style.filter = 'progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)'
-  }
+let nowTime = new Date().getTime(),
+      overTime = new Date("2022/11/30 12:12:00").getTime(),
+      endTime = new Date("2022/12/06 00:00:00").getTime();
+    if (nowTime > overTime && nowTime < endTime) {
+      document.documentElement.style.cssText =
+        "filter: grayscale(100%);";
+    };
+
 
