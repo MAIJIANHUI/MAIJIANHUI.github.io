@@ -41,10 +41,5 @@ function IEVersion() {
     },0)
 };
 
- jinrishici.load(function(result) {
-    var sentence = document.querySelector("#poem_sentence")
-    var info = document.querySelector("#poem_info")
-    info.innerHTML = '&#12300;&nbsp;' + result.data.matchTags[0]||相思+ '&nbsp;&#12301;'
-  });
-
+ 
 
