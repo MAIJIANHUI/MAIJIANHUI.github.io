@@ -42,4 +42,18 @@ function IEVersion() {
 };
 
  
-
+$(document).ready(function() {
+    var today = new Date();
+    var todayMonth = today.getMonth() + 1;
+    var todayDate = today.getDate();
+function gray(){
+ $('html').css({
+     "-webkit-filter":"grayscale(100%)",
+     "-moz-filter":"grayscale(100%)",
+     "-ms-filter":"grayscale(100%)",
+     "-o-filter":"grayscale(100%)",
+     "filter":"progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)",
+     "_filter":"none"});
+}
+    if (todayMonth == 12 && todayDate == 1) {gray()} 
+})
