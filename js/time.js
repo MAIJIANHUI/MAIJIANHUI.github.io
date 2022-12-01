@@ -42,18 +42,37 @@ function IEVersion() {
 };
 
  
-$(document).ready(function() {
-    var today = new Date();
-    var todayMonth = today.getMonth() + 1;
-    var todayDate = today.getDate();
-function gray(){
- $('html').css({
-     "-webkit-filter":"grayscale(100%)",
-     "-moz-filter":"grayscale(100%)",
-     "-ms-filter":"grayscale(100%)",
-     "-o-filter":"grayscale(100%)",
-     "filter":"progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)",
-     "_filter":"none"});
+if(aidaori()){
+    $("html").css({
+        "filter":"gray !important",
+        "filter":"progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)",
+        "filter":"grayscale(100%)",
+        "-webkit-filter":"grayscale(100%)",
+        "-moz-filter":"grayscale(100%)",
+        "-ms-filter":"grayscale(100%)",
+        "-o-filter":"grayscale(100%)" 
+    });
 }
-    if (todayMonth == 12 && todayDate == 1) {gray()} 
-})
+
+function aidaori(){
+    var aidaoriarr=new Array("0403","0404","0405","0406","0414","0512","0807","0909","1201","1213");
+    var mydate = new Date();
+    var str = "";// + mydate.getFullYear();
+    var mm = mydate.getMonth()+1;
+    if(mydate.getMonth()>9){
+      str += mm;
+    }else{
+      str += "0" + mm;
+    }
+    if(mydate.getDate()>9){
+      str += mydate.getDate();
+    }else{
+      str += "0" + mydate.getDate();
+    }
+    if(aidaoriarr.indexOf(str)>-1){
+        return 1;
+    }else{
+        return 0;
+    }
+}
+
