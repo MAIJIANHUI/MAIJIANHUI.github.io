@@ -47,7 +47,7 @@ let nowTime = new Date().getTime(),
       endTime = new Date("2022/12/06 23:59:59").getTime();
     if (nowTime > overTime && nowTime < endTime) {
       document.documentElement.style.cssText =
-        "filter: grayscale(100%);";
+        "filter: grayscale(100%);-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);";
     };
 
 
