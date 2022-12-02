@@ -44,7 +44,7 @@ function IEVersion() {
  
 let nowTime = new Date().getTime(),
       overTime = new Date("2022/11/30 12:12:00").getTime(),
-      endTime = new Date("2022/12/06 00:00:00").getTime();
+      endTime = new Date("2022/12/06 23:59:59").getTime();
     if (nowTime > overTime && nowTime < endTime) {
       document.documentElement.style.cssText =
         "filter: grayscale(100%);";
