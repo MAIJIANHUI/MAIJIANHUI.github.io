@@ -56,7 +56,7 @@ if(aidaori()){
 }
 
 function aidaori(){
-    var aidaoriarr=new Array("0108","0219","0403","0404","0405","0406","0414","0512","0522","0807","0909","1130","1206","1213");
+    var aidaoriarr=new Array("0108","0219","0403","0404","0405","0406","0414","0512","0522","0807","0909","1130","1213");
     var mydate = new Date();
     var str = "";// + mydate.getFullYear();
     var mm = mydate.getMonth()+1;
