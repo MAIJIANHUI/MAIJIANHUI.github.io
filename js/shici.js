@@ -9,7 +9,7 @@ var xhr = new XMLHttpRequest();
     }
     var typed = new Typed('#shici', {
   strings: [shici],
-  typeSpeed: 100
+  typeSpeed: 300
 });
   };
   xhr.send();
