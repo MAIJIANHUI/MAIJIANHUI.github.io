@@ -8,8 +8,8 @@ var xhr = new XMLHttpRequest();
        var shici = data.data.content;
     }
     var typed = new Typed('#shici', {
-  strings: [shici],
-  typeSpeed: 300
-});
+    strings: [shici],
+    typeSpeed: 80
+    });
   };
   xhr.send();
