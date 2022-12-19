@@ -9,8 +9,8 @@ xhr.onreadystatechange = function () {
   }
     var typed = new Typed('#hitokoto_text', {
     strings: [hitokoto_text],
-    cursorChar: '',
-    typeSpeed: 200
+    cursorChar: '__',
+    typeSpeed: 150
     });
 };
 xhr.send();
