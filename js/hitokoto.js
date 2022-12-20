@@ -10,7 +10,7 @@ xhr.onreadystatechange = function () {
     var typed = new Typed('#hitokoto_text', {
     strings: [hitokoto_text],
     cursorChar: '',
-    typeSpeed: 200
+    typeSpeed: 150
     });
 };
 xhr.send();
