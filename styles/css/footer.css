@@ -32,6 +32,11 @@
     margin-left:15%;
     margin-right:15%;
 }
+    ::selection {
+    color:#757575;
+    background-color:#FFFFFF;
+    text-shadow:none;
+}
 }
 
 @media (prefers-color-scheme: light) {
@@ -58,6 +63,11 @@
     background: #DCDCDC;
     margin-left:15%;
     margin-right:15%;
+}
+    ::selection {
+    color:#FFFFFF;
+    background-color:#757575;
+    text-shadow:none;
 }
 }
 /*在主要内容不足以铺满整个屏幕的情况下，footer居于屏幕低部显示，
