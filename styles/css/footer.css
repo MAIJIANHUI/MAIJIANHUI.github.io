@@ -145,7 +145,8 @@ color:#959595;
 .text-index{
 	line-height:1.5;
 	text-align:center;
-        margin-top:2.8rem;
+    margin-top:2.8rem;
+    margin-bottom: 4rem;
 	font-size:1.4rem;
 	color:#959595;
 	font-weight:bold;
@@ -187,14 +188,14 @@ color:#959595;
 }
 
 .star-max:before {
-    color:#959595;
+    color:#757575;
     font-size:1.rem;
     content: "\2606";
    
     
 }
 .star-min:before {
-    color:#959595;
+    color:#757575;
     font-size:1rem;
     content: "\2606\2606"
 }
