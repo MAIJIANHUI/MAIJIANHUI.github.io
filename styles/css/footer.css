@@ -188,9 +188,23 @@ color:#959595;
 	color:#959595;
 	
 }
-.about{
-    margin-top: 3rem;
+.about-left{
+	line-height:1.5;
+	text-align:left;
+	font-size:1.6rem;
+	color:#959595;
+	text-align:left;
+	margin-top: 3rem;
 }
+.about-right{
+	line-height:1.5;
+	text-align:right;
+	font-size:1.6rem;
+	color:#959595;
+	 margin-top: 3rem;
+	
+}
+
 
 .star-max:before {
     color:#757575;
