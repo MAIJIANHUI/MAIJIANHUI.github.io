@@ -179,33 +179,21 @@ color:#959595;
 	font-size:1.6rem;
 	color:#959595;
 	text-align:left;
-	margin-top: 6rem;
 }
 .text-p-right{
 	line-height:1.5;
 	text-align:right;
 	font-size:1.6rem;
 	color:#959595;
+    
 	
 }
-.about-left{
-	line-height:1.5;
-	text-align:left;
-	font-size:1.6rem;
-	color:#959595;
-	text-align:left;
-	margin-top: 3rem;
+.index{
+    margin-top: 6rem;
 }
-.about-right{
-	line-height:1.5;
-	text-align:right;
-	font-size:1.6rem;
-	color:#959595;
-	margin-top: 3rem;
-	
+.about{
+    margin-top: 3rem;
 }
-
-
 .star-max:before {
     color:#757575;
     font-size:1.rem;
@@ -648,4 +636,3 @@ color:#959595;
 
 
 } 
-
