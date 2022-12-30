@@ -4,8 +4,8 @@
 	text-align: center
 }
 @font-face {
-	font-family: SmileySans-Oblique;					
-	src:url(https://www.maijianhui.com/styles/font/SmileySans-Oblique.ttf);			
+	font-family: apple;					
+	src:url(https://www.maijianhui.com/styles/font/apple.ttc);			
 }
 @media (prefers-color-scheme: dark) {
   .back {
@@ -84,7 +84,7 @@ html,body{
     -o-filter: grayscale(100%); 
     filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);  
     _filter:none; */
-    /*font-family:SmileySans-Oblique;*/	
+    font-family:apple;	
 }
 
 .page{
