@@ -192,10 +192,7 @@ color:#959595;
 .star-max:before {
     color:#757575;
     font-size:1.rem;
-    content: "\2606";
-    font-family:apple;
-   
-    
+    content: "\2606";   
 }
 .star-min:before {
     color:#757575;
