@@ -57,18 +57,18 @@ if(aidaori()){
 
 function aidaori(){
     var aidaoriarr=new Array("0108","0219","0403","0404","0405","0406","0414","0512","0522","0807","0909","1130","1213");
-    var mydate = new Date();
-    var str = "";// + mydate.getFullYear();
-    var mm = mydate.getMonth()+1;
-    if(mydate.getMonth()>9){
+    var skydate = new Date();
+    var str = "";// + skydate.getFullYear();
+    var mm = skydate.getMonth()+1;
+    if(skydate.getMonth()>9){
       str += mm;
     }else{
       str += "0" + mm;
     }
-    if(mydate.getDate()>9){
-      str += mydate.getDate();
+    if(skydate.getDate()>9){
+      str += skydate.getDate();
     }else{
-      str += "0" + mydate.getDate();
+      str += "0" + skydate.getDate();
     }
     if(aidaoriarr.indexOf(str)>-1){
         return 1;
