@@ -1,6 +1,6 @@
 copyright=new Date();
 update=copyright.getFullYear();
-document.write("COPYRIGHT "+ update + " MAI");
+document.write("COPYRIGHT "+ update + " MAI.AC.CN");
 
 function IEVersion() {
     var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
