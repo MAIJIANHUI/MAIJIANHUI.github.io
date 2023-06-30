@@ -4,8 +4,7 @@
 	text-align: center
 }
 @font-face {
-	font-family: apple;					
-	src:url(https://mai.ac.cn/styles/font/apple.ttc);			
+	/*font-family: apple;src:url(https://mai.ac.cn/styles/font/apple.ttc);*/			
         font-family: AlimamaShuHeiTi-Bold;					
 	src:url(https://mai.ac.cn/styles/font/AlimamaShuHeiTi-Bold.ttf);	
 	
