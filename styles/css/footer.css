@@ -6,10 +6,9 @@
 @font-face {
 	font-family: apple;					
 	src:url(https://mai.ac.cn/styles/font/apple.ttc);			
-        font-family: "阿里妈妈数黑体 Bold";
-	font-weight: 700;src: url("//at.alicdn.com/wf/webfont/iYWKFnfdulun/PbXy68R7bbCm.woff2") format("woff2"),
-        url("//at.alicdn.com/wf/webfont/iYWKFnfdulun/8SBipDf9DfeR.woff") format("woff");
-        font-display: swap;
+        font-family: AlimamaShuHeiTi-Bold;					
+	src:url(https://mai.ac.cn/styles/font/AlimamaShuHeiTi-Bold.ttc);	
+	
 }
 @media (prefers-color-scheme: dark) {
   .back {
@@ -82,7 +81,7 @@ html,body{
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "阿里妈妈数黑体 Bold";
+    font-family: AlimamaShuHeiTi-Bold;
     /*font-family:apple;*/
     
 }
