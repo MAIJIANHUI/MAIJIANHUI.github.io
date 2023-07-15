@@ -56,7 +56,7 @@ if(aidaori()){
 }
 
 function aidaori(){
-    var aidaoriarr=new Array("0108","0219","0403","0404","0405","0406","0414","0512","0522","0807","0909","1130","1213");
+    var aidaoriarr=new Array("0108","0219","0403","0404","0405","0406","0414","0512","0522","0807","0909","1130","1213","0715");
     var skydate = new Date();
     var str = "";// + skydate.getFullYear();
     var mm = skydate.getMonth()+1;
@@ -76,3 +76,22 @@ function aidaori(){
         return 0;
     }
 }
+/***
+ * 愚人节彩蛋 - 你屏幕上有根毛
+ */
+!function() {
+    var bottom = Math.floor(60 * Math.random()),
+        right = Math.floor(50 * Math.random()),
+        rotate = Math.floor(360 * Math.random());
+    var foolsEgg = document.createElement("img");
+    foolsEgg.src = "https://search-operate.cdn.bcebos.com/b028c278cbb84660f8bde79d819bc30b.png";
+    foolsEgg.style.position = "fixed"; 
+    foolsEgg.style.bottom = "".concat(bottom, "%");
+    foolsEgg.style.right = "".concat(right, "%"); 
+    foolsEgg.style.zIndex = "9999"; 
+    foolsEgg.style.pointerEvents = "none";
+    foolsEgg.style.width = "40%";
+    foolsEgg.style.maxWidth = "190px";
+    foolsEgg.style.transform = "".concat("rotate(", rotate, "deg)"); 
+    document.body.append(foolsEgg);
+} ();
