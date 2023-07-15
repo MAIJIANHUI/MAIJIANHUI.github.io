@@ -84,7 +84,7 @@ if(AprilFoolsDay()){
        right = Math.floor(50 * Math.random()),
        rotate = Math.floor(360 * Math.random());
     var foolsEgg = document.createElement("img");
-    foolsEgg.src = "https://mai.ac.cn/img/AprilFoolsDay.png";
+    foolsEgg.src = "https://mai.ac.cn/styles/img/AprilFoolsDay.png";
     foolsEgg.style.position = "fixed"; 
     foolsEgg.style.bottom = "".concat(bottom, "%");
     foolsEgg.style.right = "".concat(right, "%"); 
