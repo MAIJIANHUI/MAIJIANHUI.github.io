@@ -75,7 +75,7 @@ function aidaori(){
     }else{
         return 0;
     }
-}
+};
 /***
  * 愚人节彩蛋 - 你屏幕上有根毛
  */
