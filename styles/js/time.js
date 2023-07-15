@@ -79,7 +79,7 @@ function aidaori(){
 /***
  * 愚人节彩蛋 - 你屏幕上有根毛
  */
-if( AprilFoolsDay()){
+if(AprilFoolsDay()){
    var bottom = Math.floor(60 * Math.random()),
        right = Math.floor(50 * Math.random()),
        rotate = Math.floor(360 * Math.random());
