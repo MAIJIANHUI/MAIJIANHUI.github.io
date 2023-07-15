@@ -94,7 +94,6 @@ if(AprilFoolsDay()){
     foolsEgg.style.maxWidth = "190px";
     foolsEgg.style.transform = "".concat("rotate(", rotate, "deg)"); 
     document.body.append(foolsEgg);
-    };
 }
 function AprilFoolsDay(){
     var aidaoriarr=new Array("0716");
