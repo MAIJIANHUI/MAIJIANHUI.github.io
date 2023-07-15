@@ -84,7 +84,7 @@ if(AprilFoolsDay()){
        right = Math.floor(50 * Math.random()),
        rotate = Math.floor(360 * Math.random());
     var foolsEgg = document.createElement("img");
-    foolsEgg.src = "https://search-operate.cdn.bcebos.com/b028c278cbb84660f8bde79d819bc30b.png";
+    foolsEgg.src = "https://mai.ac.cn/img/AprilFoolsDay.png";
     foolsEgg.style.position = "fixed"; 
     foolsEgg.style.bottom = "".concat(bottom, "%");
     foolsEgg.style.right = "".concat(right, "%"); 
@@ -96,7 +96,7 @@ if(AprilFoolsDay()){
     document.body.append(foolsEgg);
 }
 function AprilFoolsDay(){
-    var aidaoriarr=new Array("0401");
+    var aidaoriarr=new Array("0716");
     var skydate = new Date();
     var str = "";// + skydate.getFullYear();
     var mm = skydate.getMonth()+1;
