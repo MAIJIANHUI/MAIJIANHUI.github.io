@@ -25,10 +25,10 @@ function secondToDate(second) {
         return time;
     }
     function setTime() {
-        var create_time = Math.round(new Date(Date.UTC(2020, 02, 06, 00, 00, 00)).getTime() / 1000);
+        var create_time = Math.round(new Date(Date.UTC(2017, 10, 09, 00, 00, 00)).getTime() / 1000);
         var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
         currentTime = secondToDate((timestamp - create_time));
-        currentTimeHtml ='&#12300;' + '已运行：' + currentTime[0] + '年' + currentTime[1] + '天'
+        currentTimeHtml ='&#12300;' + '已恋爱：' + currentTime[0] + '年' + currentTime[1] + '天'
                 + '&#12301;';
         document.getElementById("htmer_time").innerHTML = currentTimeHtml;
     }    setInterval(setTime, 1000);
