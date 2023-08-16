@@ -105,7 +105,9 @@ footer{
 html,body{
     height: 30%;
 }
-
+.text{
+    text-align: justify;
+}
 container{
     display: flex;
     flex-direction: column;
