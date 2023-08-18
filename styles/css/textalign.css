@@ -1,3 +1,5 @@
 .textalign{
     text-align: justify;
+    -moz-text-align-last: justify;
+    -webkit-text-align-last: justify;
 }
