@@ -96,7 +96,7 @@ if(AprilFoolsDay()){
     document.body.append(foolsEgg);
 }
 function AprilFoolsDay(){
-    var aidaoriarr=new Array("1027");
+    var aidaoriarr=new Array("0401");
     var skydate = new Date();
     var str = "";// + skydate.getFullYear();
     var mm = skydate.getMonth()+1;
