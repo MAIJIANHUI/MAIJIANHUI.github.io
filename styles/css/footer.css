@@ -844,3 +844,10 @@ color:#959595;
 
 
 } 
+.bgImg{
+    background: url(https://mai.ac.cn/styles/img/EarthEngine.jpg) no-repeat;
+    height: 100%; 
+    width: 100%; 
+    position: fixed;
+    background-size: 100% 100%;
+}
