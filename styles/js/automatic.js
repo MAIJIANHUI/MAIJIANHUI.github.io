@@ -35,15 +35,3 @@ new Typed("#text404", {
     typeSpeed: 200
 });
 
-// 添加手动停止跳转逻辑（如点击按钮）
-document.getElementById("cancelJump").addEventListener("click", () => {
-    clearInterval(intervalId);
-    divLabel.textContent = "跳转已取消";
-});
-
-// 跳转前弹出确认对话框
-setTimeout(() => {
-    if (confirm("确定要跳转至首页吗？")) {
-        window.location.href = "https://mai.ac.cn";
-    }
-}, 2000);
