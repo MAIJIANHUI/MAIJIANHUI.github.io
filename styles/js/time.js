@@ -1,45 +1,34 @@
-copyright=new Date();
-update=copyright.getFullYear();
-document.write("COPYRIGHT "+ update + " MAI.AC.CN");
-
-function IEVersion() {
-    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
-    var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
-    var isEdge = userAgent.indexOf("Edge") > -1 && !isIE; //判断是否IE的Edge浏览器
-    var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf("rv:11.0") > -1;
-    if(isIE) {
-      var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
-      reIE.test(userAgent);
-      var fIEVersion = parseFloat(RegExp["$1"]);
-      if(fIEVersion == 7) {
-        return 7;
-      } else if(fIEVersion == 8) {
-        return 8;
-      } else if(fIEVersion == 9) {
-        return 9;
-      } else if(fIEVersion == 10) {
-        return 10;
-      } else {
-        return 6;//IE版本<=7
-      }
-    } else if(isEdge) {
-      return 20;//edge
-    } else if(isIE11) {
-      return 11; //IE11
-    }else{
-      return -1;//不是ie浏览器
+// 版权声明
+(function () {
+    const footer = document.querySelector('footer');
+    if (footer) {
+        footer.textContent = `COPYRIGHT ${new Date().getFullYear()} MAI.AC.CN`;
     }
-  }
-  var version = IEVersion();
-  if(version !== -1 && version <= 10){
-    setTimeout(function () {
-      document.body.innerHTML = '<div style="text-center: center;padding-top: 20%;font-size:1.8rem;f"><div style="font-size:2.5rem;font-weight: bold">浏览器不支持</div><br/>抱歉，您的浏览器不支持访问<br/>我们建议您使用最新版本的 Safari、Firefox、Microsoft Edge 或 Chrome 浏览器</div>'
-    },0)
-  }else if(version == 11) {
-       setTimeout(function () {
-      document.body.innerHTML = '<div style="text-center: center;padding-top: 20%;font-size:1.8rem;f"><div style="font-size:2.5rem;font-weight: bold">浏览器不支持</div><br/>抱歉，您的浏览器不支持访问<br/>我们建议您使用最新版本的 Safari、Firefox、Microsoft Edge 或 Chrome 浏览器</div>'
-    },0)
-};
+})();
 
- 
+// 浏览器兼容性检测与提示
+(function () {
+    // 特性检测方案
+    const isLegacy = !window.Promise || !window.fetch;
 
+    // 或 IE 精确检测方案
+    const ieVersion = (() => {
+        const ua = navigator.userAgent;
+        const msie = ua.indexOf('MSIE ');
+        const trident = ua.indexOf('Trident/');
+        return msie > 0 ? parseInt(ua.substr(msie+5, ua.indexOf('.', msie)), 10) :
+               trident > 0 ? 11 : -1;
+    })();
+
+    if (isLegacy || ieVersion > 0) {
+        const warning = document.createElement('div');
+        warning.className = 'browser-warning';
+        warning.innerHTML = `
+            <div class="browser-warning-title">浏览器不支持</div>
+            <br/>
+            抱歉，您的浏览器版本过旧<br/>
+            建议使用最新版 Edge、Chrome 或 Firefox
+        `;
+        document.body.prepend(warning);
+    }
+})();
