@@ -1,12 +1,7 @@
-// 版权声明
-(function () {
-    const footer = document.querySelector('footer');
-    if (footer) {
-        footer.textContent = `COPYRIGHT ${new Date().getFullYear()} MAI.AC.CN`;
-    }
-})();
+Date();
+update=copyright.getFullYear();
+document.write("COPYRIGHT "+ update + " MAI.AC.CN");
 
-// 浏览器兼容性检测与提示
 function IEVersion() {
     var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
     var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; //判断是否IE<11浏览器
