@@ -1,4 +1,4 @@
-Date();
+copyright=new Date();
 update=copyright.getFullYear();
 document.write("COPYRIGHT "+ update + " MAI.AC.CN");
 
